@@ -1,0 +1,115 @@
+###
+POST http://localhost:5005/api/peliculas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Vista por Ultima Vez",
+    "tarifa": "A",
+    "hora_inicio": "15:00",
+    "idioma": "Espanol",
+    "tipo": "2D",
+    "categoria": "Accion, Drama, Suspenso",
+    "restriccion": "Mayores de 12 años",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=yUNt1eslCDw&ab_channel=ElT%C3%ADoGolpetazo",
+    "sinopsis": "La futura ex mujer de Will desaparece misteriosamente en una gasolinera. Se adentra en el vientre criminal de la ciudad mientras huye de las autoridades en una carrera contrarreloj para encontrarla."
+}
+###
+POST http://localhost:5005/api/peliculas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "7 Horas para Enamorarte",
+    "tarifa": "A",
+    "hora_inicio": "20:00",
+    "idioma": "Espanol",
+    "tipo": "2D",
+    "categoria": "Comedia",
+    "restriccion": "Mayores de 7 años",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=vMPdtNOxwcI&ab_channel=PELICULASMANIA",
+    "sinopsis": "Valeria, una bella y decidida mujer desilusiona con el amor, es una maestra implacable de ligar con hombres solteros. Un día conoció a Giulio, que lucha por recuperar a su ex, con su ayuda."
+}
+###
+POST http://localhost:5005/api/peliculas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "La Huerfana: El Origen",
+    "tarifa": "A",
+    "hora_inicio": "21:00",
+    "idioma": "Espanol",
+    "tipo": "2D",
+    "categoria": "Crimen, Drama, Terror",
+    "restriccion": "Mayores de 15 años",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=SLpSuefUC2A&ab_channel=DiamondFilmsLatam",
+    "sinopsis": "La desquiciada Leena Klammer organiza una brillante fuga de un manicomio de Estonia y viaja a Estados Unidos robando la identidad de la hija desaparecida de una familia adinerada. Sin embargo, la nueva vida de Leena como \"Esther\" llega con un giro inesperado y la enfrenta a una madre que hará cualquier cosa para proteger a su familia a toda costa."
+}
+###
+POST http://localhost:5005/api/peliculas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "La Mujer Rey",
+    "tarifa": "A",
+    "hora_inicio": "15:00",
+    "idioma": "Espanol",
+    "tipo": "2D",
+    "categoria": "Accion",
+    "restriccion": "Mayores de 12 años",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=Ko66zqe9quM&ab_channel=KinoCheckEspa%C3%B1ol",
+    "sinopsis": "The Woman King es la notable historia de Agojie, la unidad de guerreras compuesta exclusivamente por mujeres que protegieron el reino africano de Dahomey en el siglo XIX con habilidades y una ferocidad como nunca antes se había visto en el mundo. Inspirada en hechos reales, The Woman King sigue el viaje emocionalmente épico de la General Nanisca (la ganadora del Oscar® Viola Davis) mientras entrena a la próxima generación de reclutas y las prepara para la batalla contra un enemigo decidido a destruir su forma de vida. Hay cosas por las que vale la pena luchar..."
+}
+###
+POST http://localhost:5005/api/peliculas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Tadeo Jones",
+    "tarifa": "A",
+    "hora_inicio": "18:00",
+    "idioma": "Espanol",
+    "tipo": "2D",
+    "categoria": "Animacion",
+    "restriccion": "Mayores de 7 años",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=8yJeyhQdhGs&ab_channel=SpartaSoft-%E2%98%85TrailersFULLHD%E2%98%85",
+    "sinopsis": "El sueño más grande de Tad es ser aceptado por sus colegas arqueólogos, pero su naturaleza accidentada se interpone. Cuando él, inadvertidamente, destruye un sarcófago extraño, se conjura un hechizo que pone en peligro la vida de sus amigos. Saving Mummy, Jeff y Belzoni van a desatar una aventura llena de acción que llevará a Tad y a Sara a viajar a un rincón lejano del mundo para encontrar la manera de detener la maldición de la Tableta Esmeralda."
+}
+###
+POST http://localhost:5005/api/peliculas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Titanic 666",
+    "tarifa": "A",
+    "hora_inicio": "21:00",
+    "idioma": "Espanol",
+    "tipo": "2D",
+    "categoria": "Terror, Thriller",
+    "restriccion": "Mayores de 12 años",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg",
+    "trailer": "https://www.youtube.com/watch?v=1IEMFjcYpos&ab_channel=ElT%C3%ADoGolpetazo",
+    "sinopsis": "Las fuerzas oscuras de las profundidades suben a la superficie, aterrorizando a todos a bordo del Titanic III y amenazando con repetir uno de los mayores desastres de la historia. Producción de terror de The Asylum, creadores de \"Titanic 2\""
+}
+
+###
+GET http://localhost:5005/api/peliculas HTTP/1.1
+
+###
+GET http://localhost:5005/api/peliculas/634e2aff658c7da3a5174b5d HTTP/1.1
+
+###
+DELETE http://localhost:5005/api/peliculas/634e3199c3eface6d631a9f2 HTTP/1.1
+
+###
+POST http://localhost:5005/api/portada/nueva_portada HTTP/1.1
+Content-Type: application/json
+
+{
+    "imagen": "https://images.pexels.com/photos/1603901/pexels-photo-1603901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "descripcion": "asdfasdfsda",
+    "precio": "23000"
+}
